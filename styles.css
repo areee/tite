@@ -1,9 +1,15 @@
 h1{
     color: green;
 	text-align: center;
+	font-size: 5vw;
 }
 
 p{
 	color: orange;
 	text-decoration: underline;
+	font-size: 2vw;
+}
+
+img{
+	max-width: 100%;
 }
