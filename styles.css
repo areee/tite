@@ -1,3 +1,8 @@
+/* uusi lisäys: */
+* {
+    box-sizing: border-box;
+  }
+
 h1{
     color: green;
 	text-align: center;
@@ -10,6 +15,7 @@ p{
 	font-size: 2vw;
 }
 
+/* uusi lisäys: */
 img{
 	max-width: 100%;
 	height: 25vw;
@@ -17,21 +23,36 @@ img{
 
 .sisalto{
 	overflow: auto;
+	margin: 1em; /* uusi lisäys */
+	text-align:center; /* uusi lisäys */
 }
 
 .vasen{
+	background: #efeeee; /* uusi lisäys */
 	float: left;
-	width: 50%;
+	width: 49%; /* päivitetty 50% -> uusi arvo */
+	padding: 1em; /* uusi lisäys */
+	margin-right: 1em; /* uusi lisäys */
 }
 
 .oikea{
+	background: #d4d3d3; /* uusi lisäys */
 	float: left;
-	width: 50%;
-}	
+	width: 49%; /* päivitetty 50% -> uusi arvo */
+	padding: 1em; /* uusi lisäys */
+}
 
-@media only screen and (max-width: 750px){
+	
+
+@media only screen and (max-width: 847px){
 	.vasen, .oikea{
 		width: 100%;
+		 margin: 0.5em; /* uusi lisäys */
 	}
+	
+	/* uusi lisäys: */
+	img{
+        height: auto;
+    }
 }
 
